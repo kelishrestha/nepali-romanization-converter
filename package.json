@@ -1,0 +1,21 @@
+{
+  "name": "nepali-romanization-converter",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kelishrestha/nepali-romanization-converter.git"
+  }
+}
